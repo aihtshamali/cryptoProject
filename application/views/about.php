@@ -11,8 +11,8 @@
     <meta name="description" content="" />
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="icon" href="<?php echo base_url(); ?>images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>images/favicon.png" />
 
     <!-- PAGE TITLE HERE -->
     <title>Bit-invest Template | Home Page 4</title>
@@ -26,35 +26,35 @@
 	<![endif] -->
 
     <!-- BOOTSTRAP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootstrap.min.css">
     <!-- FONTAWESOME STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/fontawesome/css/font-awesome.min.css" />
     <!-- FLATICON STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/flaticon.min.css">
     <!-- ANIMATE STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/animate.min.css">
     <!-- OWL CAROUSEL STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/owl.carousel.min.css">
     <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootstrap-select.min.css">
     <!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/magnific-popup.min.css">
     <!-- LOADER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/loader.min.css">
     <!-- MAIN STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
     <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
+    <link rel="stylesheet" class="skin" type="text/css" href="<?php echo base_url(); ?>css/skin/skin-1.css">
     <!-- CUSTOM  STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/custom.css">
     <!-- SIDE SWITCHER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/switcher.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/switcher.css">
 
 
     <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>plugins/revolution/revolution/css/navigation.css">
 
     <!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -571,9 +571,9 @@
              <div class="section-full home-about-section p-t80 bg-no-repeat bg-bottom-right"  style="background-image:url(images/background/bg-coin.png)">
                 <div class="container-fluid ">
                     <div class="row">
-
+                        <h2 class="text-uppercase">About Us</h2>
                         <div class="col-md-12">
-                            <div class="wt-right-part p-b80">
+                            <div >
                                     <!-- TITLE START -->
 
                                     <!-- TITLE END -->
@@ -1643,30 +1643,30 @@ CryptoInvest  is a fast growing and experienced company in cryptocurrency tradin
 
 
 <!-- JAVASCRIPT  FILES ========================================= -->
-<script src="js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
-<script   src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="<?php echo base_url(); ?>js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
+<script   src="<?php echo base_url(); ?>js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
 
-<script   src="js/bootstrap-select.min.js"></script><!-- FORM JS -->
-<script   src="js/jquery.bootstrap-touchspin.min.js"></script><!-- FORM JS -->
+<script   src="<?php echo base_url(); ?>js/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script   src="<?php echo base_url(); ?>js/jquery.bootstrap-touchspin.min.js"></script><!-- FORM JS -->
 
-<script   src="js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
+<script   src="<?php echo base_url(); ?>js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
 
-<script   src="js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
-<script   src="js/counterup.min.js"></script><!-- COUNTERUP JS -->
-<script   src="js/waypoints-sticky.min.js"></script><!-- COUNTERUP JS -->
+<script   src="<?php echo base_url(); ?>js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
+<script   src="<?php echo base_url(); ?>js/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script   src="<?php echo base_url(); ?>js/waypoints-sticky.min.js"></script><!-- COUNTERUP JS -->
 
-<script  src="js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
+<script  src="<?php echo base_url(); ?>js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
 
-<script   src="js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
+<script   src="<?php echo base_url(); ?>js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
 
-<script   src="js/stellar.min.js"></script><!-- PARALLAX BG IMAGE   -->
-<script   src="js/scrolla.min.js"></script><!-- ON SCROLL CONTENT ANIMTE   -->
+<script   src="<?php echo base_url(); ?>js/stellar.min.js"></script><!-- PARALLAX BG IMAGE   -->
+<script   src="<?php echo base_url(); ?>js/scrolla.min.js"></script><!-- ON SCROLL CONTENT ANIMTE   -->
 
-<script   src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
-<script   src="js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
-<script   src="js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
-<script  src="js/jquery.bgscroll.js"></script><!-- BACKGROUND SCROLL -->
-<script  src="js/tickerNews.min.js"></script><!-- MARQUEE SCROLL -->
+<script   src="<?php echo base_url(); ?>js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script   src="<?php echo base_url(); ?>js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
+<script   src="<?php echo base_url(); ?>js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
+<script  src="<?php echo base_url(); ?>js/jquery.bgscroll.js"></script><!-- BACKGROUND SCROLL -->
+<script  src="<?php echo base_url(); ?>js/tickerNews.min.js"></script><!-- MARQUEE SCROLL -->
 
 <!-- jquery validate -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
@@ -1769,14 +1769,14 @@ $flash = $this->session->flashdata('cryptoFlash');
 </script>
 <!-- REVOLUTION JS FILES -->
 
-<script  src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script  src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script  src="<?php echo base_url(); ?>plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script  src="<?php echo base_url(); ?>plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script  src="plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
+<script  src="<?php echo base_url(); ?>plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
 
 <!-- REVOLUTION SLIDER FUNCTION  ===== -->
-<script type="text/javascript"  src="js/rev-script-4.js"></script>
+<script type="text/javascript"  src="<?php echo base_url(); ?>js/rev-script-4.js"></script>
 
 
 <!-- LOADING AREA START ===== -->
